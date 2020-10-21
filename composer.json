@@ -1,0 +1,14 @@
+{
+    "name": "zhizhaoping/laravel_rabbitmq_mq",
+    "description": "A message queue for laravel and realize by rabbitmq",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhizhaoping",
+            "email": "1491277985@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
