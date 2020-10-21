@@ -1,6 +1,6 @@
 {
-    "name": "zhizhaoping/laravel_rabbitmq_mq",
-    "description": "A message queue for laravel and realize by rabbitmq",
+    "name": "zhizhaoping/laravel-rabbitmq-mq",
+    "description": "一个基于rabbitmq的fanout exchange实现的laravel message queue",
     "type": "library",
     "license": "MIT",
     "authors": [
