@@ -8,9 +8,7 @@ php artisan vendor:publish --provider="Rabbitmq\RabbitMqProvider"
 ```
 
 ## 消费实现
-[参考实践](https://derickbailey.com/2015/09/02/rabbitmq-best-practices-for-designing-exchanges-queues-and-bindings/) 
-
-Exchange Per Event
+[参考实践 Exchange Per Event](https://derickbailey.com/2015/09/02/rabbitmq-best-practices-for-designing-exchanges-queues-and-bindings/) 
 
 配置：config/rabbitmq.php
 ```php
@@ -35,6 +33,7 @@ $created_user = [
 ];
 
 \Rabbitmq\Facades\Publisher::pushlish('user.created', json_encode($created_user))
+
 ```
 
 
