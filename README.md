@@ -1,4 +1,4 @@
-# Lravel Rabbit fanout MQ
+# Laravel Rabbit fanout MQ
 
 一个基于rabbitmq的fanout exchange实现的laravel的消息队列(pub/sub)
 
