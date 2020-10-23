@@ -22,7 +22,7 @@ return [
     /**
      * eventName => subscribe
      */
-    'subscribe_exchange' => [
+    'subscribes' => [
         // 'user.deleted' => \App\Subscribes\RabbitMq\UserDeleted::class,
         'user.created' => \Rabbitmq\Subscribe\UserCreated::class,
     ]

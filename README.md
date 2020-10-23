@@ -13,7 +13,7 @@ php artisan vendor:publish --provider="Rabbitmq\RabbitMqProvider"
 配置：config/rabbitmq.php
 ```php
 // eventName => subscribe
-'subscribe_exchange' => [
+'subscribes' => [
     'user.created' => \Rabbitmq\Subscribe\UserCreated::class,
 ]
 ```
