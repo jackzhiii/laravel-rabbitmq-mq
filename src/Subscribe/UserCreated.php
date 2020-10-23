@@ -6,7 +6,7 @@ use PhpAmqpLib\Message\AMQPMessage;
 
 class UserCreated extends BaseSubscribe
 {
-    public function callback(Array $data)
+    public function callback($data)
     {
         echo "\n---111-----\n";
         echo "exchange:" . $this->getEventName() . "\n";
