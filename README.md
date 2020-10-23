@@ -32,7 +32,7 @@ $created_user = [
     'name' => 'zhangsan'
 ];
 
-\Rabbitmq\Facades\Publisher::pushlish('user.created', json_encode($created_user))
+\Rabbitmq\Facades\Publisher::pushlish('user.created', $created_user)
 
 ```
 
