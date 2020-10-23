@@ -4,7 +4,7 @@ namespace Rabbitmq;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\Application as LaravelApplication;
-use Illuminate\Lumen\Application as LumenApplication;
+use Laravel\Lumen\Application as LumenApplication;
 use Rabbitmq\Console\ConsumerCommand;
 use Illuminate\Support\Arr;
 use PhpAmqpLib\Connection\AMQPStreamConnection;
